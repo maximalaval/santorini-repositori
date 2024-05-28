@@ -1,0 +1,220 @@
+
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------ HEADER--------------*/
+
+.navbar {
+    background-color: #9e774a;
+    padding: 15px 10px;
+    z-index: 4;   
+}
+
+@media screen and (max-width: 767px){
+  .navbar-brand{
+    display:none
+  }
+}
+.containter{
+  padding-inline:20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  position: fixed;
+  all:unset;
+  justify-content: end;
+}
+
+.listaMenu {
+  display: inline-flex;
+  gap: 10px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-item a { 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link.active{
+  color:#714a4a;
+}
+
+
+.logo{
+  width: auto;
+}
+.carritoCompras{
+  width: 30px;
+}
+
+/*-------------HEADER PRODUCTOS------------*/
+
+.productos{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 5px 20px 20px 20px;
+}
+
+.productosDiv{
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
+.productosDiv a{
+  color:#8b5a15;
+}
+
+.imgProductosGrid {
+  width: 100%;
+ 
+}
+
+.botonComprar {
+ border-style: none;
+ border-width: medium;
+ border-radius: 5px;
+ padding: 4px;
+ background-color: rgb(230, 206, 113)
+ 
+}
+
+/*--------------MAIN -----------------*/
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+  color: #201e1e;
+  padding: 20px;
+}
+
+p {
+  color: #201e1e;
+}
+
+footer p {
+  color: #ffff;
+}
+h4 {
+  color: #ffff;
+}
+section .tituloPromocionales {
+  color:#926c40;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+section .cuotas{
+  color:#dfba86;
+}
+
+.productosPromocionales{
+  display: flex;
+  justify-content: center;
+  padding-inline: 10px;
+  gap: 5px;
+}
+
+.productosPromocionales div{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.productosNuevos{
+  padding: 20px;
+}
+.promociones .row div{
+  height: 250px;
+  background-color: purple;
+}
+
+.productosPromocionales div a{
+  display: flex;
+}
+
+section .videoPortada{
+  width: 100%;
+}
+
+span {
+  font-weight: 600;
+}
+
+section .monto{
+  color:#926c40;
+  font-size: medium;
+  font-weight: 600;
+}
+
+section .botonComprar{
+  text-decoration: none;
+}
+
+.imagenPortada{
+  width: 100%;
+}
+
+.imgProductos{
+  width: 100%;
+}
+.imgPromocionales {
+  width: 100%;
+}
+
+
+.newsletter{
+  text-align: center;
+  color:#493217;  
+}
+
+.newsletter h6 {
+  color:#926c40;
+  font-weight: 300;
+}
+
+.terminosYCondiciones{
+  font-size: 12px;
+}
+
+
+
+/*-------------FOOTER----------------*/
+footer{
+  background-color: #926c40;
+}
+
+footer img{
+  width: 80px;
+}
+
+footer div i{
+  color: #ffff;
+  width: 80px;
+}
